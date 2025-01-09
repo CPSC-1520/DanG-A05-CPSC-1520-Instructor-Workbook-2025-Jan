@@ -21,6 +21,9 @@
 
 ### Jan 9
 
+- *Announcements:*
+  - A week from today is **In-Class Lab 1**
+  - A week from tomorrow is the cutoff for **Quiz 1**
 - Workbook Setup
   - [000](./src/000/ReadMe.md)
   - [001](./src/001-StartHere/ReadMe.md)
