@@ -27,6 +27,9 @@
 - Workbook Setup
   - [000](./src/000/ReadMe.md)
   - [001](./src/001-StartHere/ReadMe.md)
-  - [002](./src/002/ReadMe.md)
+- **Homework**
+  - Complete the lesson for [002](./src/002/ReadMe.md)
+  - Complete the [Practice Version Control](https://dgilleland.github.io/CPSC-1520/tutorials/0020/) tutorial
+  - In your student workbook, review the Reading Lists: `~/docs/Readings.md`
 
 ----
