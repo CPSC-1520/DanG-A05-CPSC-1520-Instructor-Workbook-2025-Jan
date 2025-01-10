@@ -32,4 +32,127 @@
   - Complete the [Practice Version Control](https://dgilleland.github.io/CPSC-1520/tutorials/0020/) tutorial
   - In your student workbook, review the Reading Lists: `~/docs/Readings.md`
 
+## Jan 13
+
+
+## Jan 15
+
+
+## Jan 16
+
+
+## Jan 20
+
+
+## Jan 22
+
+
+## Jan 23
+
+
+## Jan 27
+
+
+## Jan 29
+
+
+## Jan 30
+
+
+## Feb 03
+
+
+## Feb 05
+
+
+## Feb 06
+
+
+## Feb 10
+
+
+## Feb 12
+
+
+## Feb 13
+
+
+## Feb 24
+
+
+## Feb 26
+
+
+## Feb 27
+
+
+## Mar 03
+
+
+## Mar 05
+
+
+## Mar 06
+
+
+## Mar 10
+
+
+## Mar 12
+
+
+## Mar 13
+
+
+## Mar 17
+
+
+## Mar 19
+
+
+## Mar 20
+
+
+## Mar 24
+
+
+## Mar 26
+
+
+## Mar 27
+
+
+## Mar 31
+
+
+## Apr 02
+
+
+## Apr 03
+
+
+## Apr 07
+
+
+## Apr 09
+
+
+## Apr 10
+
+
+## Apr 14
+
+
+## Apr 16
+
+
+## Apr 17
+
+
+## Apr 23
+
+
+## Apr 24
+
+
 ----
