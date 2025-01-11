@@ -32,8 +32,13 @@
   - Complete the [Practice Version Control](https://dgilleland.github.io/CPSC-1520/tutorials/0020/) tutorial
   - In your student workbook, review the Reading Lists: `~/docs/Readings.md`
 
-## Jan 13
+----
 
+## Jan 13 (W02)
+
+- **Announcements**
+  - **Quiz Readings** - Links for readings for individual quizzes can be found under the individual topics that the quizzes relate to. For convenience, I have posted a [*Summary of Quiz Readings*](./docs/QuizReadings.md). 
+  - **Brightspace Content** - Topics on Brightspace were in the wrong order at the start of the term. The order has been corrected.
 
 ## Jan 15
 
