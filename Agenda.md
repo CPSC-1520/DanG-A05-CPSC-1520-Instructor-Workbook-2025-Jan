@@ -54,7 +54,22 @@
 - **Today**
   - [ ] [Update the **Practice Assignment**](https://dgilleland.github.io/CPSC-1520/guides/lab-updates/) for the latest automated tests.
   - [ ] ***Feedback:*** Did you do the two tutorials from last class??!
-  - [ ] Demo on [003](./src/003/ReadMe.md)
+  - [ ] **Demo:** Combine the main points of [003](./src/003/ReadMe.md) and [004](./src/004/ReadMe.md)
+    - Find and modify DOM elements with `document.querySelector()`
+    - Link a JavaScript file
+    - Create and use variables
+- **Homework**
+  - *Reminder to keep up with Quiz readings and completing the quizzes before their cutoff date.*
+  - [ ] Review the [003 LOGs](./src/003/LOGs.md) and the [004 LOGs](./src/004/LOGs.md)
+  - [ ] Read the following articles:
+    - [Why JavaScript?](https://dgilleland.github.io/CPSC-1520/explanations/0010/)
+    - [JavaScript as a Language](https://dgilleland.github.io/CPSC-1520/explanations/0020/)
+
+
+## Jan 16
+
+- **Today**
+  - [x] Lab 1 released/due **today**
   - [ ] Characteristics of JavaScript
     - case-sensitive
     - **not** a type-safe language
@@ -63,19 +78,10 @@
     - string interpolation is performed with text inside a pair of back-ticks (`` ` ``)
       - placeholders in the form of `${expression}`
       - e.g.: `` `The count is` ${count}``
-  - [ ] ***Variables***
   - [ ] The browser's dev tools provides a **console** that is a REPL (Read-Eval-Print-Loop) environment for JavaScript
   - [ ] Node also provides/is a REPL for JavaScript
-  - [ ] Start [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
-    - Link a JavaScript file
   - [ ] Begin [005](./src/005/ReadMe.md)
     - Review [its LOGs](./src/005/LOGs.md)
-- **Homework**
-  - *Reminder to keep up with Quiz readings and completing the quizzes before their cutoff date.*
-
-
-## Jan 16
-
 
 ## Jan 20
 
