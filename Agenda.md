@@ -51,6 +51,28 @@
 
 ## Jan 15
 
+- **Today**
+  - [ ] [Update the **Practice Assignment**](https://dgilleland.github.io/CPSC-1520/guides/lab-updates/) for the latest automated tests.
+  - [ ] ***Feedback:*** Did you do the two tutorials from last class??!
+  - [ ] Complete [003](./src/003/ReadMe.md)
+  - [ ] Characteristics of JavaScript
+    - case-sensitive
+    - **not** a type-safe language
+    - looks a lot like C#, but has a number of differences
+    - string literals can be wrapped in double or single quotes
+    - string interpolation is performed with text inside a pair of back-ticks (`` ` ``)
+      - placeholders in the form of `${expression}`
+      - e.g.: `` `The count is` ${count}``
+  - [ ] ***Variables***
+  - [ ] The browser's dev tools provides a **console** that is a REPL (Read-Eval-Print-Loop) environment for JavaScript
+  - [ ] Node also provides/is a REPL for JavaScript
+  - [ ] Start [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
+    - Link a JavaScript file
+  - [ ] Begin [005](./src/005/ReadMe.md)
+    - Review [its LOGs](./src/005/LOGs.md)
+- **Homework**
+  - *Reminder to keep up with Quiz readings and completing the quizzes before their cutoff date.*
+
 
 ## Jan 16
 
