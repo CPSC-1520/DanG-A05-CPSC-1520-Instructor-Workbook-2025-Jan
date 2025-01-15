@@ -54,7 +54,7 @@
 - **Today**
   - [ ] [Update the **Practice Assignment**](https://dgilleland.github.io/CPSC-1520/guides/lab-updates/) for the latest automated tests.
   - [ ] ***Feedback:*** Did you do the two tutorials from last class??!
-  - [ ] Complete [003](./src/003/ReadMe.md)
+  - [ ] Demo on [003](./src/003/ReadMe.md)
   - [ ] Characteristics of JavaScript
     - case-sensitive
     - **not** a type-safe language
