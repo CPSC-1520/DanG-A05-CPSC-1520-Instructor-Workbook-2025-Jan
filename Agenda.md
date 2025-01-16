@@ -15,9 +15,10 @@
 
 ### Jan 8 (W01)
 
-- Course Introduction
-- GitHub Account Setup
-- Software Setup
+- **Today** *(Online)*
+  - Course Introduction
+  - GitHub Account Setup
+  - Software Setup
 
 ### Jan 9
 
@@ -51,7 +52,7 @@
 
 ## Jan 15
 
-- **Today**
+- **Today** *(Online)*
   - [ ] [Update the **Practice Assignment**](https://dgilleland.github.io/CPSC-1520/guides/lab-updates/) for the latest automated tests.
   - [ ] ***Feedback:*** Did you do the two tutorials from last class??!
   - [ ] **Demo:** Combine the main points of [003](./src/003/ReadMe.md) and [004](./src/004/ReadMe.md)
@@ -96,7 +97,7 @@
 
 ## Jan 22
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
@@ -115,7 +116,7 @@
 
 ## Jan 29
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
@@ -134,7 +135,7 @@
 
 ## Feb 05
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
@@ -153,7 +154,7 @@
 
 ## Feb 12
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
@@ -172,7 +173,7 @@
 
 ## Feb 26
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
@@ -191,7 +192,7 @@
 
 ## Mar 05
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
@@ -210,7 +211,7 @@
 
 ## Mar 12
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
@@ -229,7 +230,7 @@
 
 ## Mar 19
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
@@ -248,7 +249,7 @@
 
 ## Mar 26
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
@@ -267,7 +268,7 @@
 
 ## Apr 02
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
@@ -286,7 +287,7 @@
 
 ## Apr 09
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
@@ -305,7 +306,7 @@
 
 ## Apr 16
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
@@ -318,7 +319,7 @@
 
 ## Apr 23 (W15)
 
-- **Today**
+- **Today** *(Online)*
 - **Homework**
 
 
