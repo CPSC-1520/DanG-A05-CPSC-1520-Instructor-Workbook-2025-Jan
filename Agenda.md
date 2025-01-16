@@ -70,131 +70,262 @@
 
 - **Today**
   - [x] Lab 1 released/due **today**
+    - **20-30 minutes** of class time to complete the lab.
+  - [ ] *What is a Computer Program?*
+  - [ ] Begin [005](./src/005/ReadMe.md)
+    1. Launch the `005/live-demo/index.html` in Live Server.
+    2. Open the Dev Tools Console.
+    3. Walk through 005's ReadMe.md
+    4. Mention [the LOGs](./src/005/LOGs.md) (*Learning Outcome Guides*)
   - [ ] Characteristics of JavaScript
     - case-sensitive
-    - **not** a type-safe language
-    - looks a lot like C#, but has a number of differences
     - string literals can be wrapped in double or single quotes
     - string interpolation is performed with text inside a pair of back-ticks (`` ` ``)
       - placeholders in the form of `${expression}`
-      - e.g.: `` `The count is` ${count}``
+      - e.g.: `` `The count is ${count}` ``
+    - dynamically-typed (or *loosely-typed*) language
   - [ ] The browser's dev tools provides a **console** that is a REPL (Read-Eval-Print-Loop) environment for JavaScript
   - [ ] Node also provides/is a REPL for JavaScript
-  - [ ] Begin [005](./src/005/ReadMe.md)
-    - Review [its LOGs](./src/005/LOGs.md)
 
-## Jan 20
+----
 
+## Jan 20 (W03)
+
+- **Today**
+- **Homework**
 
 ## Jan 22
+
+- **Today**
+- **Homework**
 
 
 ## Jan 23
 
+- **Today**
+- **Homework**
 
-## Jan 27
+----
+
+## Jan 27 (W04)
+
+- **Today**
+- **Homework**
 
 
 ## Jan 29
 
+- **Today**
+- **Homework**
+
 
 ## Jan 30
 
+- **Today**
+- **Homework**
 
-## Feb 03
+----
+
+## Feb 03 (W05)
+
+- **Today**
+- **Homework**
 
 
 ## Feb 05
 
+- **Today**
+- **Homework**
+
 
 ## Feb 06
 
+- **Today**
+- **Homework**
 
-## Feb 10
+----
+
+## Feb 10 (W06)
+
+- **Today**
+- **Homework**
 
 
 ## Feb 12
 
+- **Today**
+- **Homework**
+
 
 ## Feb 13
 
+- **Today**
+- **Homework**
 
-## Feb 24
+----
+
+## Feb 24 (W07)
+
+- **Today**
+- **Homework**
 
 
 ## Feb 26
 
+- **Today**
+- **Homework**
+
 
 ## Feb 27
 
+- **Today**
+- **Homework**
 
-## Mar 03
+----
+
+## Mar 03 (W08)
+
+- **Today**
+- **Homework**
 
 
 ## Mar 05
 
+- **Today**
+- **Homework**
+
 
 ## Mar 06
 
+- **Today**
+- **Homework**
 
-## Mar 10
+----
+
+## Mar 10 (W09)
+
+- **Today**
+- **Homework**
 
 
 ## Mar 12
 
+- **Today**
+- **Homework**
+
 
 ## Mar 13
 
+- **Today**
+- **Homework**
 
-## Mar 17
+----
+
+## Mar 17 (W10)
+
+- **Today**
+- **Homework**
 
 
 ## Mar 19
 
+- **Today**
+- **Homework**
+
 
 ## Mar 20
 
+- **Today**
+- **Homework**
 
-## Mar 24
+----
+
+## Mar 24 (W11)
+
+- **Today**
+- **Homework**
 
 
 ## Mar 26
 
+- **Today**
+- **Homework**
+
 
 ## Mar 27
 
+- **Today**
+- **Homework**
 
-## Mar 31
+----
+
+## Mar 31 (W12)
+
+- **Today**
+- **Homework**
 
 
 ## Apr 02
 
+- **Today**
+- **Homework**
+
 
 ## Apr 03
 
+- **Today**
+- **Homework**
 
-## Apr 07
+----
+
+## Apr 07 (W13)
+
+- **Today**
+- **Homework**
 
 
 ## Apr 09
 
+- **Today**
+- **Homework**
+
 
 ## Apr 10
 
+- **Today**
+- **Homework**
 
-## Apr 14
+----
+
+## Apr 14 (W14)
+
+- **Today**
+- **Homework**
 
 
 ## Apr 16
 
+- **Today**
+- **Homework**
+
 
 ## Apr 17
 
+- **Today**
+- **Homework**
 
-## Apr 23
+----
+
+## Apr 23 (W15)
+
+- **Today**
+- **Homework**
 
 
 ## Apr 24
+
+- **Today**
+- **Homework**
 
 
 ----
