@@ -77,14 +77,6 @@
     1. Launch the `005/live-demo/index.html` in Live Server.
     2. Open the Dev Tools Console.
     3. Walk through 005's ReadMe.md
-    4. Mention [the LOGs](./src/005/LOGs.md) (*Learning Outcome Guides*)
-  - [ ] Characteristics of JavaScript
-    - case-sensitive
-    - string literals can be wrapped in double or single quotes
-    - string interpolation is performed with text inside a pair of back-ticks (`` ` ``)
-      - placeholders in the form of `${expression}`
-      - e.g.: `` `The count is ${count}` ``
-    - dynamically-typed (or *loosely-typed*) language
   - [ ] The browser's dev tools provides a **console** that is a REPL (Read-Eval-Print-Loop) environment for JavaScript
   - [ ] Node also provides/is a REPL for JavaScript
 
@@ -93,6 +85,22 @@
 ## Jan 20 (W03)
 
 - **Today**
+  - [ ] Continue [005](./src/005/ReadMe.md)
+    1. Launch the `005/live-demo/index.html` in Live Server.
+    2. Open the Dev Tools Console.
+    3. Walk through 005's ReadMe.md
+    4. Mention [the LOGs](./src/005/LOGs.md) (*Learning Outcome Guides*)
+  - [ ] Characteristics of JavaScript
+    - case-sensitive
+    - string literals can be wrapped in double or single quotes
+    - string interpolation is performed with text inside a pair of back-ticks (`` ` ``)
+      - placeholders in the form of `${expression}`
+      - e.g.: `` `The count is ${count}` ``
+    - dynamically-typed (or *loosely-typed*) language
+  - [**006**](./src/006/ReadMe.md) (cont.) - Intro to Functions in JavaScript
+    - Review [its LOGs](./src/006/LOGs.md)
+  - [**007**](./src/007/ReadMe.md) - Creating JavaScript Functions
+    - Review [its LOGs](./src/007/LOGs.md)
 - **Homework**
 
 ## Jan 22
