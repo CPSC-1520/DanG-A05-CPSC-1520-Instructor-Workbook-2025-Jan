@@ -120,7 +120,7 @@
   - Styling Challenge (CSS only - no JavaScript)
 
     ```ps
-    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/005.5 ./src/005.5
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/005.5 ./src/005.5
     ```
 
 
