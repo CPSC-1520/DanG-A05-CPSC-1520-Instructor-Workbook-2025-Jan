@@ -99,22 +99,28 @@
     6. Mention [the LOGs](./src/005/LOGs.md) (*Learning Outcome Guides*)
   - [ ] Characteristics of JavaScript
     - case-sensitive
+    - dynamically-typed (or *loosely-typed*) language
     - string literals can be wrapped in double or single quotes
     - string interpolation is performed with text inside a pair of back-ticks (`` ` ``)
       - placeholders in the form of `${expression}`
       - e.g.: `` `The count is ${count}` ``
-    - dynamically-typed (or *loosely-typed*) language
   - [**006**](./src/006/ReadMe.md) (cont.) - Intro to Functions in JavaScript
     - Methods in the global `console` object
       - `.log()`
       - `.clear()`
       - list 3 others from exploring in a REPL
     - `alert()`, `prompt()` and `confirm()` global functions
-  - [**007**](./src/007/ReadMe.md) - Creating JavaScript Functions
 - **Homework**
   - [ ] Do the [**Learn by Play** portion of the `005/ReadMe.md`](./src/005/ReadMe.md#learn-by-play)
   - [ ] Review the new [Finding DOM Elements](https://dgilleland.github.io/CPSC-1520/guides/0030/) guide.
   - [ ] Review [006 LOGs](./src/006/LOGs.md)
+
+
+## Jan 22
+
+- **Today** *(Online)*
+  - [**007**](./src/007/ReadMe.md) - Creating JavaScript Functions
+- **Homework**
   - [ ] Complete [practice in `007`](./src/007/ReadMe.md#practice-agreement)
   - [ ] Review [007 LOGs](./src/007/LOGs.md)
   - [ ] Styling Challenge (CSS only - no JavaScript)
@@ -122,12 +128,6 @@
     ```ps
     pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/005.5 ./src/005.5
     ```
-
-
-## Jan 22
-
-- **Today** *(Online)*
-- **Homework**
 
 
 ## Jan 23
