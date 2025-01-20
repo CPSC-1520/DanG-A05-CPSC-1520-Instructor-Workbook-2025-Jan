@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#jan-15).
+> These are my notes on what I plan to teach in each [**upcoming class**](#jan-20-w03).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -85,11 +85,18 @@
 ## Jan 20 (W03)
 
 - **Today**
-  - [ ] Continue [005](./src/005/ReadMe.md)
+  - [ ] Continue [**005**](./src/005/ReadMe.md)
     1. Launch the `005/live-demo/index.html` in Live Server.
     2. Open the Dev Tools Console.
     3. Walk through 005's ReadMe.md
-    4. Mention [the LOGs](./src/005/LOGs.md) (*Learning Outcome Guides*)
+       - numbers vs. strings
+       - math vs. concatenation
+       - variables
+       - strings to numbers - `.parseInt()` and `.parseFloat()`
+       - numbers to strings - `.toString()` and `.toFixed()`
+    4. Note the difference between `let` and `const` in creating variables
+    5. Emphasize difference between primitive (built-in) types and objects
+    6. Mention [the LOGs](./src/005/LOGs.md) (*Learning Outcome Guides*)
   - [ ] Characteristics of JavaScript
     - case-sensitive
     - string literals can be wrapped in double or single quotes
@@ -98,10 +105,24 @@
       - e.g.: `` `The count is ${count}` ``
     - dynamically-typed (or *loosely-typed*) language
   - [**006**](./src/006/ReadMe.md) (cont.) - Intro to Functions in JavaScript
-    - Review [its LOGs](./src/006/LOGs.md)
+    - Methods in the global `console` object
+      - `.log()`
+      - `.clear()`
+      - list 3 others from exploring in a REPL
+    - `alert()`, `prompt()` and `confirm()` global functions
   - [**007**](./src/007/ReadMe.md) - Creating JavaScript Functions
-    - Review [its LOGs](./src/007/LOGs.md)
 - **Homework**
+  - Do the [**Learn by Play** portion of the `005/ReadMe.md`](./src/005/ReadMe.md#learn-by-play)
+  - Review the new [Finding DOM Elements](https://dgilleland.github.io/CPSC-1520/guides/0030/) guide.
+  - Review [006 LOGs](./src/006/LOGs.md)
+  - Complete [practice in `007`](./src/007/ReadMe.md#practice-agreement)
+  - Review [007 LOGs](./src/007/LOGs.md)
+  - Styling Challenge (CSS only - no JavaScript)
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/CPSC-1520-Workbook-A02-dgilleland-2024-Sep/sk/005.5 ./src/005.5
+    ```
+
 
 ## Jan 22
 
