@@ -112,12 +112,12 @@
     - `alert()`, `prompt()` and `confirm()` global functions
   - [**007**](./src/007/ReadMe.md) - Creating JavaScript Functions
 - **Homework**
-  - Do the [**Learn by Play** portion of the `005/ReadMe.md`](./src/005/ReadMe.md#learn-by-play)
+  - [ ] Do the [**Learn by Play** portion of the `005/ReadMe.md`](./src/005/ReadMe.md#learn-by-play)
   - Review the new [Finding DOM Elements](https://dgilleland.github.io/CPSC-1520/guides/0030/) guide.
-  - Review [006 LOGs](./src/006/LOGs.md)
-  - Complete [practice in `007`](./src/007/ReadMe.md#practice-agreement)
-  - Review [007 LOGs](./src/007/LOGs.md)
-  - Styling Challenge (CSS only - no JavaScript)
+  - [ ] Review [006 LOGs](./src/006/LOGs.md)
+  - [ ] Complete [practice in `007`](./src/007/ReadMe.md#practice-agreement)
+  - [ ] Review [007 LOGs](./src/007/LOGs.md)
+  - [ ] Styling Challenge (CSS only - no JavaScript)
 
     ```ps
     pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/005.5 ./src/005.5
