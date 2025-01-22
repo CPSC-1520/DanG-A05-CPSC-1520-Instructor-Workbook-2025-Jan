@@ -4,7 +4,13 @@
 
 - [ ] Distinguish between primitive data types and object data types in JavaScript
 - [ ] List the primitive data types built-in to JavaScript
+  - The `'string'` data type represents textual information
+  - The `'number'` data type represents numerical information
+  - The `'boolean'` data type represents the ideas of `true` or `false`
 - [ ] Distinguish between the `var`, `let`, and `const` keywords
+  - `var` declares a variable
+  - `let` declares a variable within a block scope
+  - `const` declares a variable whose value cannot be changed
 - [ ] Describe what is meant by the term "Temporal dead zone" (TDZ)
 - [ ] Describe what is meant by "literal values" in code
 - [ ] Describe the purpose of the `typeof` operator
