@@ -9,6 +9,17 @@
 > > My philosophy of teaching, taken from [the source](https://www.bible.com/bible/111/1TH.5.14.NIV)
 
 
+> ## Starter Kits
+>
+> To grab a starting point for the demo, you can use [**tiged**](https://github.com/tiged/tiged) (based on [`degit`](https://github.com/Rich-Harris/degit) by Rich Harris, creator of Svelte) to grab a copy of the demo folder from my workbook. Note that you will need to have `pnpm` installed and working on your computer. Run the following code in the terminal from the **root** of your repository:
+>
+> ```bash
+> pnpm dlx tiged --disable-cache --force dgilleland/CPSC-1520-Workbook/sk/-how-to- ./src/-how-to-
+> ```
+>
+> ***Note:** You may need to <kbd>ctrl</kbd>+<kbd>c</kbd> to stop the `pnpm tlx tiged` command after it has finished downloading the demo folder.*
+
+
 ----
 
 ## Jan-Apr 2025 Schedule
@@ -134,13 +145,30 @@
 ## Jan 23
 
 - **Today**
+  - [ ] Lab 2 released/due **today**
+    - **30-45 minutes** of class time to complete the lab.
 - **Homework**
+  - [ ] Ensure you have been making notes on all the LOG items in your student workbook and that you have committed and pushed those notes.
 
 ----
 
 ## Jan 27 (W04)
 
+- [ ] Housekeeping Tasks:
+  - [ ] Version Control: Updating Your Workbook (commit & push)
+  - [ ] Filling the Gaps: Self-study is the only way to fill in the gaps between what you do and don't know about HTML.
+
+![HTML Iceberg](./docs/images/html-iceberg.jpg)
+
+  - [ ] [Downloading Starter Kits](#starter-kits)
 - **Today**
+  - [**008**](./src/008/ReadMe.md) - Form Input and Handling Events
+    - Review [its LOGs](./src/008/LOGs.md)
+      - Demo creating an event handler
+      - Demo adding an event listener
+      - Demo **mouse** events such as `click`, `dblclick`, `mouseenter`, `mouseleave`, `mousemove`
+      - Demo adding and removing CSS classes programmatically (from `.classList`)
+      - Demo an anonymous handler for an event listener
 - **Homework**
 
 
