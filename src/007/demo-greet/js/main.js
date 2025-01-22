@@ -37,13 +37,13 @@ const greetUser = function (username) {
 */
 
 const cleanAndConcatenate = function(first, second, third) {
-    let result;
-    let lastItem = third.trim();
+    let result; // I am declaring a variable (Declaration statement)
+    let lastItem = third.trim(); // I am declaring a variable AND giving it a value (Initialization statement)
     // I will use string interpolation to build the text I want.
     // string interpolation is done by putting our text inside a pair of
     // backticks and using placholders to "inject" data/infomation
     // into the string
-    result = `${first.trim()} ${second.trim()} ${lastItem}`;
+    result = `${first.trim()} ${second.trim()} ${lastItem}`; // Assignment statement
     //        \_____________/ \______________/ \_________/
     //           All of these are placeholders
 
