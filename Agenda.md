@@ -119,6 +119,7 @@
 ## Jan 22
 
 - **Today** *(Online)*
+  - [ ] How to use ***LOGs** (Learning Outcome Guides)*
   - [**007**](./src/007/ReadMe.md) - Creating JavaScript Functions
 - **Homework**
   - [ ] Complete [practice in `007`](./src/007/ReadMe.md#practice-agreement)
