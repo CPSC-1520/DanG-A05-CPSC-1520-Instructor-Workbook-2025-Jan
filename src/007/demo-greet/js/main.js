@@ -32,6 +32,7 @@ const greetUser = function (username) {
             - These variables/parameters are only usable from within
               the body of the function
         - `return` - information going out of the function
+            - you can only return a single item
             - if no `return`, the default value returned is `undefined`
 */
 
