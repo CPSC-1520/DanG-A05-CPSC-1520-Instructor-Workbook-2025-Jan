@@ -20,3 +20,43 @@ const greetUser = function (username) {
     // update the h1 inner HTML
     mainTitle.innerHTML = 'Welcome ' + username + ' to ' + originalHeading;
 };
+
+
+/* Notes
+    Functions are used to
+    - perform tasks (calculations, DOM modifications, etc.)
+    - communicate information
+        - parameters - information going into the function
+            - You can have as many parameters as you want
+            - comma-separated list of variable names
+            - These variables/parameters are only usable from within
+              the body of the function
+        - `return` - information going out of the function
+            - if no `return`, the default value returned is `undefined`
+*/
+
+const cleanAndConcatenate = function(first, second, third) {
+    let result;
+    let lastItem = third.trim();
+    // I will use string interpolation to build the text I want.
+    // string interpolation is done by putting our text inside a pair of
+    // backticks and using placholders to "inject" data/infomation
+    // into the string
+    result = `${first.trim()} ${second.trim()} ${lastItem}`;
+    //        \_____________/ \______________/ \_________/
+    //           All of these are placeholders
+
+    return result; // exit this function and give back the value of result
+}
+
+// My .js file can call the functions I declare
+let givenName = '  Guido\t';        // \t is a TAB character
+let middleName = '\nAndropov\n';    // \n is a NEWLINE character
+let surname = ' Drozdowski \n \t \n';
+console.log(givenName + middleName + surname); // you can see the effect of whitespace characters
+
+// I am supplying givenName as the argument for the first parameter, and
+// middleName as the argument for the second parameter, and surname as
+// the argument for the third parameter
+let fullName = cleanAndConcatenate(givenName, middleName, surname);
+console.log('After cleaning, the concatenated result is:', fullName);
