@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#jan-22).
+> These are my notes on what I plan to teach in each [**upcoming class**](#jan-23).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -11,7 +11,9 @@
 
 > ## Starter Kits
 >
-> To grab a starting point for the demo, you can use [**tiged**](https://github.com/tiged/tiged) (based on [`degit`](https://github.com/Rich-Harris/degit) by Rich Harris, creator of Svelte) to grab a copy of the demo folder from my workbook. Note that you will need to have `pnpm` installed and working on your computer. Run the following code in the terminal from the **root** of your repository:
+> To grab a starting point for any in-class demos or practices, you can use [**tiged**](https://github.com/tiged/tiged) (based on [`degit`](https://github.com/Rich-Harris/degit) by Rich Harris, creator of Svelte). It will allow you to grab a copy of the starter kit folder to put into your student workbook.
+> 
+> You will need to have `pnpm` installed and working on your computer. Run the following code in the terminal from the **root** of your repository:
 >
 > ```bash
 > pnpm dlx tiged --disable-cache --force dgilleland/CPSC-1520-Workbook/sk/-how-to- ./src/-how-to-
@@ -147,6 +149,13 @@
 - **Today**
   - [ ] Lab 2 released/due **today**
     - **30-45 minutes** of class time to complete the lab.
+  - [ ] How to get the [Starter Kits](#starter-kits) for each class.
+  - [ ] A *soft introduction* to Events and Event Handling in web pages.
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/soft-intro ./src/008/soft-intro
+      ```
+
 - **Homework**
   - [ ] Ensure you have been making notes on all the LOG items in your student workbook and that you have committed and pushed those notes.
 
