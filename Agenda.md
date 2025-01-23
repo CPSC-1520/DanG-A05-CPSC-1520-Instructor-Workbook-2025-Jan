@@ -150,7 +150,8 @@
   - [ ] Lab 2 released/due **today**
     - **30-45 minutes** of class time to complete the lab.
   - [ ] How to get the [Starter Kits](#starter-kits) for each class.
-  - [ ] A *soft introduction* to Events and Event Handling in web pages.
+  - [**008**](./src/008/ReadMe.md) - Form Input and Handling Events
+    - A *soft introduction* to Events and Event Handling in web pages.
 
       ```ps
       pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/soft-intro ./src/008/soft-intro
@@ -158,6 +159,8 @@
 
 - **Homework**
   - [ ] Ensure you have been making notes on all the LOG items in your student workbook and that you have committed and pushed those notes.
+  - [ ] Review the code from today's class. Try to describe what each part of the JavaScript code is doing. Identify new items such as mouse events, new DOM object properties, etc.
+    - > ***FYI:** Reviewing code from each class should be a regular practice, even when I'm not explicit in it being homework.*
 
 ----
 
@@ -169,21 +172,49 @@
 
 ![HTML Iceberg](./docs/images/html-iceberg.jpg)
 
-  - [ ] [Downloading Starter Kits](#starter-kits)
+- **Starter Kits** for the today and the next class
+  - The *`demo-events`* starter kit is an assortment of event handlers; it's mostly a demo where the code is already done.
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/demo-events ./src/008/demo-events
+    ```
+
+  - The [*Text Manipulation*](./src/008/demo-text-manipulation/ReadMe.md) starter kit is where we can explore event handlers and input controls.
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/demo-text-manipulation ./src/008/demo-text-manipulation
+    ```
+
+  - The [*Form Processing*](./src/008/form-processing/ReadMe.md) starter kit moves us toward processing all the user input from a `<form>` in a single event handler.
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/form-processing ./src/008/form-processing
+    ```
+
 - **Today**
   - [**008**](./src/008/ReadMe.md) - Form Input and Handling Events
-    - Review [its LOGs](./src/008/LOGs.md)
-      - Demo creating an event handler
-      - Demo adding an event listener
-      - Demo **mouse** events such as `click`, `dblclick`, `mouseenter`, `mouseleave`, `mousemove`
-      - Demo adding and removing CSS classes programmatically (from `.classList`)
-      - Demo an anonymous handler for an event listener
+    - [ ] Overall goals:
+      - exploring different mouse events
+      - exposure to a few more HTML tags
+      - programmatically adding/removing CSS classes from DOM elements
+      - exploring the string manipulation functions
+      - `submit` event for forms
+      - identifying the form DOM element with the event's `.target` property
+      - identifying input controls on the form
 - **Homework**
-
+  - Review the [LOGs](./src/008/LOGs.md)
+  - Can you...
+    - [ ] create an event handler
+    - [ ] add an event listener
+    - [ ] identify what is meant by **mouse** events such as `click`, `dblclick`, `mouseenter`, `mouseleave`, `mousemove`
+    - [ ] add and remove CSS classes programmatically (from `.classList`)
+    - [ ] use an anonymous handler for an event listener
 
 ## Jan 29
 
 - **Today** *(Online)*
+  - [ ] Form processing - practice and tips
+    - *Starter kit is TBD*
 - **Homework**
 
 
