@@ -135,7 +135,7 @@
 - **Homework**
   - [ ] Complete [practice in `007`](./src/007/ReadMe.md#practice-agreement)
   - [ ] Review [007 LOGs](./src/007/LOGs.md)
-  - [ ] Styling Challenge (CSS only - no JavaScript)
+  - [ ] Styling Challenge (CSS only - no JavaScript) - *This is completely optional. I put that in there just for you guys in Web Design and Development, not because it has anything to do with JavaScript, but because I wanted you to try thinking about styling without lots of <div>, <span> and class="" attributes. I figured it would help you with your design journey.*
 
     ```ps
     pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/005.5 ./src/005.5
