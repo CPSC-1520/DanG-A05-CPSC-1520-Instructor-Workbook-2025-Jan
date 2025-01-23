@@ -1,6 +1,7 @@
 # A Soft Intro to Event Handling
 
 - [ ] Listening for 'click' and 'dblclick' events
+- [ ] Event handler - function name vs. anonymous inline function
 - [ ] Event bubbling and `.stopPropagation()`
 
     ```js
