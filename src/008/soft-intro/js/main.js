@@ -39,3 +39,10 @@ document.querySelector('#register') // return the DOM element
 //       to the following element's property:
 //          document.querySelector('html').dataset.theme
 //       Try it out, then inspect the elements in the Dev Tools.
+heading.addEventListener('dblclick', function(ev) {
+    document.querySelector('html').dataset.theme = 'dark'; // because my default theme light 
+});
+
+// Notice how double-clicking on the button now also triggers the `dblclick` for the heading?
+// That's because the event on the button "bubbles" up the DOM to parent elements
+// UNLESS we stop it from doing that.
