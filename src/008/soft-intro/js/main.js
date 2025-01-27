@@ -25,6 +25,9 @@ heading.addEventListener('click', handleClick);
 //       then output the information to the #feedback element.
 document.querySelector('#register') // return the DOM element
         .addEventListener('dblclick', function(evt) { // anonymous inlined function declaration
+            // To stop bubbling, we'll call the .stopPropagation() function
+            evt.stopPropagation();
+
             let name = prompt('Enter your name');
             let email = prompt('Enter your email');
             let message = `<br/>Hello ${name}. You have been added to the no-fly watch list. For details, see your inbox at ${email}.<br/><hr/>`;
