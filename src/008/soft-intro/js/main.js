@@ -23,6 +23,15 @@ heading.addEventListener('click', handleClick);
 //       Listen for the 'dblclick' event.
 //       Prompt the user for their name, then for their email,
 //       then output the information to the #feedback element.
+document.querySelector('#register') // return the DOM element
+        .addEventListener('dblclick', function(evt) { // anonymous inlined function declaration
+            let name = prompt('Enter your name');
+            let email = prompt('Enter your email');
+            let message = `<br/>Hello ${name}. You have been added to the no-fly watch list. For details, see your inbox at ${email}.<br/><hr/>`;
+            let output = document.getElementById('feedback')
+            output.innerHTML += message; // Append to the existing value
+        //  output.innerHTML = output.innerHTML + message    
+        });
 
 // TODO: Add another event listener for the heading, this time for
 //       the 'dblclick' event.
