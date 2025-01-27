@@ -21,6 +21,14 @@
 >
 > ***Note:** You may need to <kbd>ctrl</kbd>+<kbd>c</kbd> to stop the `pnpm tlx tiged` command after it has finished downloading the demo folder.*
 
+<!--
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/Demo-0 ./src/0xx/ad-hoc-demo
+    ```
+
+
+-->
 
 ----
 
