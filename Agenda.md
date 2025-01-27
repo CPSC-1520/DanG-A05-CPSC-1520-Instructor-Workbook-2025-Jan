@@ -181,6 +181,12 @@
 ![HTML Iceberg](./docs/images/html-iceberg.jpg)
 
 - **Starter Kits** for the today and the next class
+  - The *`demo-classlist`* starter kit is a simple demo for an ad-hoc demo in class
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/Demo-0 ./src/008/demo-classlist
+    ```
+
   - The *`demo-events`* starter kit is an assortment of event handlers; it's mostly a demo where the code is already done.
 
     ```ps
@@ -201,6 +207,8 @@
 
 - **Today**
   - [**008**](./src/008/ReadMe.md) - Form Input and Handling Events
+    - [ ] Complete the [soft-intro](./src/008/soft-intro/ReadMe.md) TODO items
+    - [ ] In the ad-hoc [demo-classlist](./src/008/demo-classlist)  we will listen for the click of the `<h1>` and toggle the `hidden` class for the `<output>`
     - [ ] Overall goals:
       - exploring different mouse events
       - exposure to a few more HTML tags
