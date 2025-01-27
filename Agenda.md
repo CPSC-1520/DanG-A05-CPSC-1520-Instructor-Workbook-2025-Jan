@@ -213,12 +213,9 @@
       - exploring different mouse events
       - exposure to a few more HTML tags
       - programmatically adding/removing CSS classes from DOM elements
-      - exploring the string manipulation functions
-      - `submit` event for forms
-      - identifying the form DOM element with the event's `.target` property
-      - identifying input controls on the form
 - **Homework**
   - Review the [LOGs](./src/008/LOGs.md)
+  - Review the [**html**](./src/008/demo-text-manipulation/index.html) and [**JavaScript**](./src/008/demo-text-manipulation/js/main.js) code for the text manipulation demo
   - Can you...
     - [ ] create an event handler
     - [ ] add an event listener
@@ -230,6 +227,11 @@
 
 - **Today** *(Online)*
   - [ ] Form processing - practice and tips
+    - [ ] Overall goals:
+      - exploring the string manipulation functions
+      - `submit` event for forms
+      - identifying the form DOM element with the event's `.target` property
+      - identifying input controls on the form
     - *Starter kit is TBD*
 - **Homework**
 
