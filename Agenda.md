@@ -210,7 +210,6 @@
     - [ ] Complete the [soft-intro](./src/008/soft-intro/ReadMe.md) TODO items
     - [ ] In the ad-hoc [demo-classlist](./src/008/demo-classlist)  we will listen for the click of the `<h1>` and toggle the `hidden` class for the `<output>`
     - [ ] Overall goals:
-      - exploring different mouse events
       - exposure to a few more HTML tags
       - programmatically adding/removing CSS classes from DOM elements
 - **Homework**
@@ -219,26 +218,59 @@
   - Can you...
     - [ ] create an event handler
     - [ ] add an event listener
-    - [ ] identify what is meant by **mouse** events such as `click`, `dblclick`, `mouseenter`, `mouseleave`, `mousemove`
     - [ ] add and remove CSS classes programmatically (from `.classList`)
     - [ ] use an anonymous handler for an event listener
 
 ## Jan 29
 
 - **Today** *(Online)*
+  <!-- - [ ] Life Advice: **Don't be *passive*!**
+    - *Don't wait for  -->
+  - [ ] Lab 2 solution
+  - [ ] Review [**demo-events**](./src/008/demo-events/js/main.js) to discuss the various mouse events.
+    - [ ] Overall goals:
+      - exploring different mouse events
+  - [ ] Ad-hoc exploration of string manipulation functions (based roughly on the event-based intent of [demo-text-manipulation](./src/008/demo-text-manipulation/))
+    - **`.length`** property
+    - `.trim()` (plus left/right trim), `.toUpperCase()`/`.toLowerCase()`, `.padStart()`/`.padEnd()`, `.repeat()`, `.replace()` + `.replaceAll()`, `.substr()` vs. `.substring()`
+    - `.charAt()` and `.charCodeAt()`, `String.fromCharCode()`
+    - A sidenote about the short-hand Math operators
+      - `+=` et.al., `++` and `--` (prefix vs. postfix)
+
+        ```js
+        let count = 1;
+        appendLine(`Count starts out as ${count}`);
+        appendLine(`Postfix increment: count is ${count++} and then ${count}`);
+        appendLine(`Prefix increment: count is ${++count} and then ${count}`);
+        ```
+
+    - Starter Kit
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/Demo-Steps ./src/005/string-functions
+      ```
+
+- **Homework**
+  - [ ] Complete the [Event Listener tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0070/) and place it in your workbook at **`~/src/008/event-listener/`**
+  - [ ] Complete the [DOM Interactions tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0080/) and place it in your workbook at **`~/src/008/dom-styling/`**
+  - Can you...
+    - [ ] create an event handler
+    - [ ] add an event listener
+    - [ ] identify what is meant by **mouse** events such as `click`, `dblclick`, `mouseenter`, `mouseleave`, `mousemove`
+    - [ ] add and remove CSS classes programmatically (from `.classList`)
+    - [ ] use an anonymous handler for an event listener
+
+
+## Jan 30
+
+- **Today**
+  - [ ] Lab 3 released/due **today**
   - [ ] Form processing - practice and tips
     - [ ] Overall goals:
       - exploring the string manipulation functions
       - `submit` event for forms
       - identifying the form DOM element with the event's `.target` property
       - identifying input controls on the form
-    - *Starter kit is TBD*
-- **Homework**
-
-
-## Jan 30
-
-- **Today**
 - **Homework**
 
 ----
