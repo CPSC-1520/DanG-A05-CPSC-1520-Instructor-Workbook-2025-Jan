@@ -244,7 +244,7 @@
         appendLine(`Prefix increment: count is ${++count} and then ${count}`);
         ```
 
-    - Starter Kit
+    - Starter Kit *(installs to `~/src/005/string-functions/`)*
 
       ```ps
       pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/Demo-Steps ./src/005/string-functions
@@ -254,11 +254,9 @@
   - [ ] Complete the [Event Listener tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0070/) and place it in your workbook at **`~/src/008/event-listener/`**
   - [ ] Complete the [DOM Interactions tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0080/) and place it in your workbook at **`~/src/008/dom-styling/`**
   - Can you...
-    - [ ] create an event handler
-    - [ ] add an event listener
     - [ ] identify what is meant by **mouse** events such as `click`, `dblclick`, `mouseenter`, `mouseleave`, `mousemove`
-    - [ ] add and remove CSS classes programmatically (from `.classList`)
-    - [ ] use an anonymous handler for an event listener
+    - [ ] perform string manipulations
+    - [ ] use various assignment operators and the increment/decrement math operators
 
 
 ## Jan 30
