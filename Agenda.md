@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#jan-23).
+> These are my notes on what I plan to teach in each [**upcoming class**](#jan-29).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -226,11 +226,11 @@
 - **Today** *(Online)*
   <!-- - [ ] Life Advice: **Don't be *passive*!**
     - *Don't wait for  -->
-  - [ ] Lab 2 solution
-  - [ ] Review [**demo-events**](./src/008/demo-events/js/main.js) to discuss the various mouse events.
+  - [ ] **(5 min)** - Lab 2 solution
+  - [ ] **(15-25 min)** - Review [**demo-events**](./src/008/demo-events/js/main.js) to discuss the various mouse events.
     - [ ] Overall goals:
       - exploring different mouse events
-  - [ ] Ad-hoc exploration of string manipulation functions (based roughly on the event-based intent of [demo-text-manipulation](./src/008/demo-text-manipulation/))
+  - [ ] **(10-15 min)** - Ad-hoc exploration of string manipulation functions (based roughly on the event-based intent of [demo-text-manipulation](./src/008/demo-text-manipulation/))
     - **`.length`** property
     - `.trim()` (plus left/right trim), `.toUpperCase()`/`.toLowerCase()`, `.padStart()`/`.padEnd()`, `.repeat()`, `.replace()` + `.replaceAll()`, `.substr()` vs. `.substring()`
     - `.charAt()` and `.charCodeAt()`, `String.fromCharCode()`
@@ -250,11 +250,16 @@
       pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/Demo-Steps ./src/005/string-functions
       ```
 
+  - [ ] Form processing - Introduction
+    - [ ] Overall goals:
+      - `submit` event for forms
+      - identifying the form DOM element with the event's `.target` property
+      - identifying input controls on the form
 - **Homework**
   - [ ] Complete the [Event Listener tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0070/) and place it in your workbook at **`~/src/008/event-listener/`**
   - [ ] Complete the [DOM Interactions tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0080/) and place it in your workbook at **`~/src/008/dom-styling/`**
-  - Can you...
-    - [ ] identify what is meant by **mouse** events such as `click`, `dblclick`, `mouseenter`, `mouseleave`, `mousemove`
+  - [ ] Can you...
+    - [ ] identify what is meant by **mouse** events such as `'click'`, `'dblclick'`, **`'mouseover'`**, **`'mouseout'`**, `'mouseenter'`, `'mouseleave'`, `'mousemove'`
     - [ ] perform string manipulations
     - [ ] use various assignment operators and the increment/decrement math operators
 
@@ -263,12 +268,6 @@
 
 - **Today**
   - [ ] Lab 3 released/due **today**
-  - [ ] Form processing - practice and tips
-    - [ ] Overall goals:
-      - exploring the string manipulation functions
-      - `submit` event for forms
-      - identifying the form DOM element with the event's `.target` property
-      - identifying input controls on the form
 - **Homework**
 
 ----
