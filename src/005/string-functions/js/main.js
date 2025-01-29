@@ -41,4 +41,38 @@ let message = `My name is ${myName.bold()}! You killed my father! Prepare to die
 appendLine(message);
 // Student TODO: Explore some of the other string functions
 
+// Math operator and functions
+appendLine(''); // visual line break
+step = 0; // reset for my display on the page
+appendTitle('Exploring Math operators and functions');
+
+/* Math Assignment Operators
+    count += 1; // same as count = count + 1
+    count += 5; // same as count = count + 5
+    count *= 2; // same as count = count * 2
+    ++ is the increment operator; -- is the decrement operator
+    count++;    // same as count = count + 1
+    count--;    // same as count = count - 1
+    ++ and -- can be put in front of (prefix) the variable or after (postfix) the variable
+ */
+// Code copied from agenda...
+let count = 1;
+appendLine(`Count starts out as ${count}`);
+appendLine(`Postfix increment: count is ${count++} and then ${count}`);
+//                                        \_1_/          
+//                                        \_++__/
+//                                                          \ next /  
+appendLine(`Prefix increment: count is ${++count} and then ${count}`);
+//                                       \_____/ Increases before getting value
+// ... end of copy/paste
+
+// We have a Math object in JavaScript for various math operations
+// <sup> is for super-script and <sub> is for subscript
+appendLine('Pythagorean Theorm: C<sup>2</sup> = A<sup>2</sup> + B<sup>2</sup>');
+let adjacent = 3;
+let opposite = 4;
+
+let hypotenuse = Math.sqrt(Math.pow(adjacent, 2) + Math.pow(opposite, 2));
+appendLine(`My triangle has sides of length ${hypotenuse}, ${opposite} and ${adjacent}`);
+appendLine(`The value of PI is ${Math.PI}`);
 
