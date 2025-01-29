@@ -19,3 +19,26 @@ const offsetStepA = function(offset) {
 }
 
 // TODO: Use the space below for playing with JavaScript.
+appendTitle('Explore string functions');
+// .trim() (plus left/right trim), .toUpperCase()/.toLowerCase(), .padStart()/.padEnd(), .repeat(), .replace() + .replaceAll(), .substr() vs. .substring()
+let myName = 'Guido Andropov Drozdowski';
+appendLine(`The text in "${myName}" has ${myName.length} characters.`);
+let someText = '   Bob  \n\t'; // "\n" is a New Line character, "\t" is tab character
+appendLine(`someText has ${someText.length} characters, but I can trim it: "${someText.trimEnd()}"`);
+// someText.trim()
+// \______/\_____/
+//  string    |
+//         .trim() is a function naitive to string objects/variables
+//         \_____/
+// returns a string
+myName += '. '; // append some text to my existing value
+appendLine(myName.repeat(3));
+//         \______________/
+//            string
+appendLine(myName.padEnd(30, '!'));
+myName = 'Inigo Montoya';
+let message = `My name is ${myName.bold()}! You killed my father! Prepare to die!`;
+appendLine(message);
+// Student TODO: Explore some of the other string functions
+
+
