@@ -250,7 +250,7 @@
       pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/Demo-Steps ./src/005/string-functions
       ```
 
-  - [ ] Form processing - Introduction
+  - [ ] **(30-40 min)** - [Form processing](./src/008/form-processing/ReadMe.md) - Introduction
     - [ ] Overall goals:
       - `submit` event for forms
       - identifying the form DOM element with the event's `.target` property
