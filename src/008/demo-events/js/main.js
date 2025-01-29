@@ -49,7 +49,7 @@ featureImage.addEventListener('mouseout', function (ev) {
     // Let's replace the alert with a custom modal dialog.
     if(showCount == 0) {
         let dialog = document.querySelector('dialog');
-        dialog.showModal();
+        dialog.showModal(); // <dialog> elements can be shown/hidden
         showCount++;
 
         // Oh, and let's explore the event object a little more...
