@@ -275,10 +275,16 @@
 > - **Step 3** - The instructions are somewhat vague, but get a bit clearer when you look closely at the HTML. One of the parts of this step refers to the "div list group", and that appears to be the same element as the first `divElement` selected in Step 1 (though we selected it by the class '.javascript-resources' and not '.list-group' as somewhat inferred by these instructions).
 > - **Step 4** - The instructions mention "the list", and that is (once again), the `divElement`. However, since it's talking about it as "the list", I will look for it by the class `'.list-group'`.
 
+----
 
 ## Feb 03 (W05)
 
 - **Today**
+  - [ ] **(45-60 min)** - Continue [Form processing](./src/008/form-processing/ReadMe.md) - Introduction
+    - [ ] Overall goals:
+      - `submit` event for forms
+      - identifying the form DOM element with the event's `.target` property
+      - identifying input controls on the form
 - **Homework**
 
 
