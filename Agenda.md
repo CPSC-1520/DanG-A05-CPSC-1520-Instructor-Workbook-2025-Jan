@@ -302,7 +302,16 @@
       pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/012/If-Else ./src/012/If-Else
       ```
 
+  - [ ] **()** [013 If-Else in Form Processing](./src/013/ReadMe.md)
+    - Starter Kit *(installs to `~/src/013/`)*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/013 ./src/013
+      ```
+
+    - [ ] Demo Shipping Calculator
 - **Homework**
+  - [ ] Do the [form-processing-2](./src/013/form-processing/ReadMe.md) practice on your own
 
 
 ## Feb 06
