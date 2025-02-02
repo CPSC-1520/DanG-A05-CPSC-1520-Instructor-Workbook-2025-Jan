@@ -280,17 +280,28 @@
 ## Feb 03 (W05)
 
 - **Today**
+  - [ ] **(10-15 min)** - Lab 3 comments re: DOM Loaded event
   - [ ] **(45-60 min)** - Continue [Form processing](./src/008/form-processing/ReadMe.md) - Introduction
     - [ ] Overall goals:
       - `submit` event for forms
       - identifying the form DOM element with the event's `.target` property
       - identifying input controls on the form
+  - [ ] **(20-25 min)** - [If-Else](./src/012/demo-grammar/ReadMe.md)
 - **Homework**
+  - [ ] Review my notes on [Conditional Expressions](https://dgilleland.github.io/CPSC-1520/reference/0020/#conditional-expressions)
+  - [ ] Review the samples from today's class and be sure you understand every line of code.
 
 
 ## Feb 05
 
 - **Today** *(Online)*
+  - [ ] **()** Ad-hoc If-Else demo
+    - Starter Kit *(installs to `~/src/012/If-Else/`)*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/012/If-Else ./src/012/If-Else
+      ```
+
 - **Homework**
 
 
