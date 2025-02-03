@@ -63,8 +63,13 @@ const exploreForm = function(ev) {  // ev object will be a SubmitEvent
     // (which is a later topic).
     // Right now, I'm going to use a debugger to pause execution of my
     // code so I can explore the object in the Dev Tools.
-    debugger; // this is a command to pause execution in the browser's Dev Tools
-
+    // debugger; // this is a command to pause execution in the browser's Dev Tools
+    let firstCb = featureInputs[0];
+    let secondCb = featureInputs[1];
+    let thirdCb = featureInputs[2];
+    console.log(`firstCb.checked is ${firstCb.checked}`);
+    console.log(`secondCb.checked is ${secondCb.checked}`);
+    console.log(`thirdCb.checked is ${thirdCb.checked}`);
 
     // Here's an interesting (but wonky) use of indexers to call
     // the .log() function of the console object.
