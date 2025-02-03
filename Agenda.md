@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#jan-30).
+> These are my notes on what I plan to teach in each [**upcoming class**](#feb-03-w05).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -317,6 +317,7 @@
 ## Feb 06
 
 - **Today**
+  - [ ] **In-Class Lab 4** (Forms and Validation)
 - **Homework**
 
 ----
