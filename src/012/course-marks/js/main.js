@@ -8,10 +8,10 @@ console.log("script file loaded");
 const outputLine = function (htmlMarkup, replace) {
   const out = document.getElementById("output");
   htmlMarkup += "<br />";
-  if (replace) {
-    out.innerHTML = htmlMarkup;
+  if (replace) { // true or "truthy"
+    out.innerHTML = htmlMarkup;  // replace
   } else {
-    out.innerHTML += htmlMarkup;
+    out.innerHTML += htmlMarkup; // append
   }
 };
 
@@ -22,8 +22,44 @@ const outputLine = function (htmlMarkup, replace) {
 const addEvalItem = function (evt) {
   evt.preventDefault();
   // TODO: Write your exploratory code here
-  outputLine("Edit this form's event handler to compare the values");
+  outputLine("Processing form input...", true);
+
+  let elements = evt.target.elements; // the collection of form inputs
+  // console.log(elements);
+  let inputName = elements.evalName; // <input type="text" />
+  let inputWeight = elements.weight; // <input type="number" />
+
+  let isValid = true; // Optimistic that the data will be good
+
+  if(isInputEmpty(inputName)) {
+    outputLine('You must enter an evaluation name.');
+    isValid = false;
+  } else {
+    outputLine(`You entered <b>${inputName.value}</b> for the name.`);
+  }
+
+  if(isInputEmpty(inputWeight)) {
+    outputLine('You must supply a weight for the item.');
+    isValid = false;
+  } else {
+    outputLine(`The weight is <u>${inputWeight.value}</u> %.`);
+  }
+
+  if(isValid) {
+    // Whatever "processing" I want to do with the good data
+    outputLine('<span style="font-size: 1.2em;">Adding to the list.</span>');
+    // ... more code
+    // Clear the input controls
+    inputName.value = '';
+    inputWeight.value = '';
+    // Set the keyboard focus to the Evaluation Name input
+    inputName.focus();
+  }
 };
+
+const isInputEmpty = function (inputElement) {
+  return (inputElement.value == ''); // return true or false
+}
 
 /**
  * Reports information about the last state of the form before the reset was applied to the input controls.
