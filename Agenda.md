@@ -299,7 +299,7 @@
     - **Assignment 1** available (since Monday, Feb 3)
     - *Commentary on [**Feb 6**](#feb-06)*
   - [ ] **(20-25 min)** - If-Else
-    - [ ] [Notes](./src/012/demo-grammar/ReadMe.md)
+    - [ ] [Notes](./src/012/demo-grammar/ReadMe.md) + [website notes](https://dgilleland.github.io/CPSC-1520/explanations/0025/#control-flow)
     - [ ] Repl Starter Kit *(installs to [`~/src/012/node-repl/`](./src/012/node-repl/ReadMe.md))*
 
         ```ps
