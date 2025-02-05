@@ -43,6 +43,26 @@ Logical Operators do a comparison between boolean values for `&&` and `||` opera
 
 ----
 
+## Class Notes
+
+The opposite of `>` is `<=`. Think of a number line.
+
+![](./img/number-line.png)
+
+Don't mistake the assignment operator for the equality operator.
+
+![](./img/equality-vs-assignment.png)
+
+Re-usable functions are very helpful! You declare the function with whatever parameters (if any) you want, and then you **call** the function sending in *arguments*.
+
+![](./img/argument-vs-parameter.png)
+
+If-Else provides a way to control the **flow of execution** of your code during run-time.
+
+![](./img/flow-control.png)
+
+----
+
 ## Demo-Trees ![Docs](https://img.shields.io/badge/Documentation%20Status-%7E10%25%20Minimal%20Outline-lightgrey?logo=Read%20the%20Docs)
 
 > *Illustrates using if-else to control "toggling" the display of an item.*
