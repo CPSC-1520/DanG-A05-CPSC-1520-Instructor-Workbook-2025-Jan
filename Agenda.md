@@ -356,10 +356,10 @@
         - Boolean logic
 - **Homework**
 
-<!-- ### Lab 4 Spec Notes
+### Lab 4 Spec Notes
 
 - Focus on attaching and building the event handler for the form.
-- Within the event handler function, make use of the validation functions provided in the starter kit. -->
+- Within the event handler function, make use of the validation functions provided in the starter kit.
 
 ----
 
