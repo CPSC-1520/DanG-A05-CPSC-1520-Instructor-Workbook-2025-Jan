@@ -375,6 +375,13 @@
       pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/013 ./src/013
       ```
 
+  - [ ] Browser-less Script Files - to learn the JS language
+    - Starter Kit *(installs to `~/src/014/`)*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/014 ./src/014
+      ```
+
   - [ ] Intro to Looping
 - **Homework**
 
