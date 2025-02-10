@@ -24,4 +24,34 @@ const shootDie = function () {
 }
 
 // Play the game
-shootDie(); // 
+// shootDie(); // 
+
+// ================================
+// What is looping?
+const learnLoops = function() {
+    // While statements
+    while(rollDie() !== 6) {
+        // Run when the conditional expression is truthy
+        console.log('Not a 6');
+    }
+    console.log('Finally! A 6');
+
+    // Let's do something a little less random
+    let message = 'Counting to ten: ';
+    let count = 1;
+    while(count <= 10) {
+        message += count + ', ';
+        count++; // count = count + 1
+    }
+    console.log(message);
+    console.log('done with while loop\n\ndemo of for loop');
+
+    message = 'Counting with for statement:\n';
+    for(let counter = 0; counter <= 10; counter++) {
+        // my repeating logic...
+        message += counter + ' | ';
+    }
+    console.log(message);
+}
+
+learnLoops(); // comment this out after I learn
