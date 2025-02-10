@@ -366,6 +366,9 @@
 ## Feb 10 (W06)
 
 - **Today**
+  - [ ] Review solution to Lab 4
+  - [ ] Questions on If-Else statements
+  - [ ] Intro to Looping
 - **Homework**
 
 
