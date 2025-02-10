@@ -9,11 +9,11 @@
     cd src/014
     ```
 
-1. In VS Code, create a new JavaScript file called `conditionals.js` and place it in the `~/src/014/` folder.
+1. In VS Code, create a new JavaScript file called `flow-control.js` and place it in the `~/src/014/` folder.
 1. In the external terminal, run the script file with Node's *watch flag*.
 
     ```ps
-    node --watch conditionals.js
+    node --watch flow-control.js
     ```
 
 1. Now, every time you make edits to this script file, Node will re-run the code.
