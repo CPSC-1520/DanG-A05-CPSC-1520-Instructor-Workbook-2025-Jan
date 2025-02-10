@@ -368,6 +368,13 @@
 - **Today**
   - [ ] Review solution to Lab 4
   - [ ] Questions on If-Else statements
+    - [ ] Demo Shipping Calculator
+    - Starter Kit *(installs to `~/src/013/`)*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/013 ./src/013
+      ```
+
   - [ ] Intro to Looping
 - **Homework**
 
