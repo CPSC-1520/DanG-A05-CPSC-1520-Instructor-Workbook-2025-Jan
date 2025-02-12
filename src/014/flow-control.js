@@ -68,11 +68,20 @@ const buildFibonacciSequence = function(quantity) {
         sequence = '1';
     } else {
         // Use a loop to build the sequence
-
+        let previous = 0;
+        let current = 1;
+        sequence = `${current}`;
+        for(let count = 2; count <= quantity; count++) {
+            let next = previous + current;
+            sequence += `, ${next}`;
+            // update values for the next time through the loop
+            previous = current;
+            current = next;
+        }
     }
 
     return sequence;
 }
 
 console.log(buildFibonacciSequence(1));
-console.log(buildFibonacciSequence(5));
+console.log(buildFibonacciSequence(7));
