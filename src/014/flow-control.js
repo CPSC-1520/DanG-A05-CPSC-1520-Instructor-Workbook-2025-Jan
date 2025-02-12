@@ -19,6 +19,28 @@ const shootDie = function () {
         message += ' - You Win!!';
     } else if(total === 2 || total === 3 || total === 12) {
         message += ' - you lose 😢';
+    } else {
+        // Roll to match the point
+        let point = total;
+        let count = 0;
+        message += ' - attemping to match point\n\t';
+        // Do-While statement
+        do {
+            // repeating logic
+            message += '.';
+            count++;
+            firstDie = rollDie();
+            secondDie = rollDie();
+            total = firstDie + secondDie;
+        } while(total !== point && total !== 7);
+
+        // Report on the results
+        message += `\nAfter ${count} more rolls`;
+        if(total === 7) {
+            message += ' - you lost 😭';
+        } else {
+            message += ' you won! 🎉';
+        }
     }
     console.log(message);
 }
