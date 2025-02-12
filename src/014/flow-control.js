@@ -54,4 +54,25 @@ const learnLoops = function() {
     console.log(message);
 }
 
-learnLoops(); // comment this out after I learn
+// learnLoops(); // comment this out after I learn
+
+// Fibonacci Sequence
+// 1, 1, 2, 3, 5, 8, 13, ....
+//               \  +  /, next value
+
+const buildFibonacciSequence = function(quantity) {
+    let sequence;
+    if(quantity <= 0) {
+        sequence = 'Invalid quantity - must be greater than zero';
+    } else if(quantity === 1) {
+        sequence = '1';
+    } else {
+        // Use a loop to build the sequence
+
+    }
+
+    return sequence;
+}
+
+console.log(buildFibonacciSequence(1));
+console.log(buildFibonacciSequence(5));
