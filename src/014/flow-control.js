@@ -24,7 +24,7 @@ const shootDie = function () {
 }
 
 // Play the game
-// shootDie(); // 
+shootDie(); // 
 
 // ================================
 // What is looping?
@@ -88,5 +88,5 @@ const buildFibonacciSequence = function(quantity) {
 }
 
 console.log('\n\n');
-console.log(buildFibonacciSequence(1));
-console.log(buildFibonacciSequence(7));
+// console.log(buildFibonacciSequence(1));
+// console.log(buildFibonacciSequence(7));
