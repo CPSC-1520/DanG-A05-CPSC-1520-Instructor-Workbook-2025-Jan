@@ -403,6 +403,20 @@
 ## Feb 13
 
 - **Today**
+  - [ ] 🗝️ **Understanding Types** - The *key* to coding with confidence!
+
+    ```js
+    const dataType = function (value) {
+        let result;
+        if(value == undefined || value == null) {
+            result = `The value is ${value}`;
+        } else {
+            result = `The data type is ${value.constructor.name}`;
+        }
+        return result;
+    }
+    ```
+
   - [ ] Looping and Array Demos - *(to be done over several classes)*
     - Starter Kit *(installs to [`~/src/015/`](./src/015/ReadMe.md))*
 
