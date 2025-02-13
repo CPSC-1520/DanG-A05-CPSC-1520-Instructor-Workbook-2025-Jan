@@ -45,6 +45,17 @@ const buildFormHtml = function (evalName) {
 `;
 }
 
+
+const dataType = function (value) {
+  let result;
+  if(value == undefined || value == null) {
+      result = `The value is ${value}`;
+  } else {
+      result = `The data type is ${value.constructor.name}`;
+  }
+  return result;
+}
+
 /**
  * Generates additional forms for individual evaluation items in the course
  * @param {SubmitEvent} evt The event generated when the form is submitted
@@ -56,6 +67,16 @@ const createForms = function (evt) {
   const inputCategory = elements.category;
   const inputQuantity = elements.quantity;
   outputLine(`Create ${inputQuantity.value} forms for '${inputCategory.value}' items`, true);
+
+  // debugger; // Pause execution
+  // Loop to create the new HTML to add to the page
+  let container = document.getElementById('evaluations');
+  let quantity = parseInt(inputQuantity.value);
+  let evalName = inputCategory.value;
+  for(let count = 1; count <= quantity; count++) {
+    let html = buildFormHtml(`${evalName} ${count}`);
+    container.innerHTML = container.innerHTML + html;
+  }
 }
 
 /**

@@ -3,13 +3,16 @@ let outputDiv = document.querySelector('div');
 let list = '<h2>While Loop</h2>';
 let count = 0; // count the number of list item
 
+// Use the following statement to "pause" the code
+// debugger; // this will pause when Dev Tools are open
+
 // Demo 1 - While Loop
-list += '<ul>';
+list += '<ul>'; // Opening tag
 while (count < 7) { // true enter the loop
     list = list + '<li>Item ' + count + '</li>';
     count = count + 1;
 }
-list = list + '</ul>';
+list = list + '</ul>'; // Closing tag
 
 // Demo 2 - Do-While Loop
 list += '<h2>Do-While Loop</h2>';
