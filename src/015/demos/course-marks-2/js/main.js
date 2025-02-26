@@ -138,6 +138,18 @@ const editEvalItem = function (evt) {
       evalItems.push(item);
     } else {
       // found item needs to be updated
+      found.weight = parseInt(inputWeight.value);
+      if(isNaN(inputTotal.value)) {
+        found.possible = null;
+      } else {
+        found.possible = parseInt(inputTotal.value);
+      }
+
+      if(isNaN(inputEarned.value)) {
+        found.earned = null;
+      } else {
+        found.earned = parseInt(inputEarned.value);
+      }
     }
   } else {
     // 2b) Display errors and focus
