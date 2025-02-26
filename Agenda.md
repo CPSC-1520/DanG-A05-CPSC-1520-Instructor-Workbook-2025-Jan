@@ -450,6 +450,7 @@
 - **Today** *(Online)*
   - [ ] ***TBD:** New items*
   - [ ] Continue/Complete Looping and Array Demos - *(to be done over several classes)*
+    - *View samples on [`016/AboutArrays.js`](./src/016/AboutArrays.js) regarding adding/removing items from the array
     - *(See starter Kit [`~/src/015/`](./src/015/ReadMe.md))*
     - *(See starter Kit [`~/src/016/`](./src/016/ReadMe.md))*
 - **Homework**

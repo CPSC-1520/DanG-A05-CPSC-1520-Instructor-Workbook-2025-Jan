@@ -20,3 +20,26 @@ for(let position = 0; position < names.length; position++) {
     let specificName = names[position];
     console.log(`names[${position}] ==> ${specificName}`);
 }
+
+console.log('\nAdding an item to the array');
+let length = names.push('Al Linemint'); // add to the end
+length = names.unshift('Phil Ossophy'); // add to the start
+
+console.log('\nThe new data is:');
+console.table(names);
+
+console.log('\nRemoving an item from the array');
+let removed = names.splice(2,1); // Remove one item from index position 2
+console.log(`Removed '${removed}' at index 2`);
+console.table(names);
+
+console.log('\nRemove last item from array');
+removed = names.pop();
+console.log(`Removed '${removed}'`);
+
+console.log('\nRemove first item from array');
+removed = names.shift();
+console.log(`Removed '${removed}'`);
+
+console.log();
+console.table(names);
