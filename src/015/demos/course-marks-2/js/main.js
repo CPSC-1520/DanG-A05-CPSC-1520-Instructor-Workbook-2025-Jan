@@ -92,7 +92,21 @@ const editEvalItem = function (evt) {
   evt.preventDefault();
   // TODO: Part 2 - Update information on the current evaluation item
   outputLine("User feedback on editing the evaluation item", true);
+
+  // 1) Validate the inputs
+  let isValid = true;
+
+  // 2) If Valid
+  if(isValid) {
+    // 2a) Update/Add eval item
+
+  } else {
+    // 2b) Display errors and focus
+  }
 };
+
+// Global array to store eval object
+let evalItems = []; // empty array
 
 /**
  * Reviews all the recorded weights/marks in the `<section id='evaluations'>`
