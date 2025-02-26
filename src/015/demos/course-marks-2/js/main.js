@@ -108,7 +108,19 @@ const editEvalItem = function (evt) {
   // 2) If Valid
   if(isValid) {
     // 2a) Update/Add eval item
+    let found = null; // haven't search yet
+    for(let index = 0; index < evalItems.length; index++) {
+      let item = evalItems[index];
+      if(item.name === inputName.value) {
+        found = item;
+      }
+    }
 
+    if(!found) {
+      // new item needs to be added
+    } else {
+      // found item needs to be updated
+    }
   } else {
     // 2b) Display errors and focus
   }
