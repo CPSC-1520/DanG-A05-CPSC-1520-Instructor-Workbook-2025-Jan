@@ -86,6 +86,57 @@ Because you are performing an *assignment* instead of an *equality comparison*, 
 
 Note also that `<input>` elements have their `.value` as a **string** (even when the `type='number'`).
 
+## GitHub Issue
+
+To complete the `~/src/015/course-marks-2` demo, the following must be done:
+
+> Items marked with 🔢 are Array-related.
+
+- [ ] `createForms()`
+  - [ ] Validate inputs:
+    - [ ] Category and Quantity required
+    - [ ] Quantity must be between 1 and 10
+  - [x] 🔢 Generate eval forms
+    - [x] 🔢 Append to container
+  - [ ] Clear inputs and re-set keyboard focus to Category input
+- [ ] `editEvalItem()`
+  - [ ] 🔢 Track all updates via a global array **`evalItems`**
+  - [ ] Validate inputs:
+    - [ ] Name is required (assume unchanged)
+    - [ ] Weight is required (as whole number)
+    - [ ] Total Points is optional, but must be greater than 0
+    - [ ] Earned Points is optional, but
+      - [ ] must have a value for Total Points
+      - [ ] must be between 0 and the value of Total Points (inclusive)
+  - [ ] If Valid
+    - [ ] 🔢 Update/Add evaluation item to global `evalItems`
+  - [ ] If not valid
+    - [ ] Display error(s)
+    - [ ] Set focus to Weight input
+- [ ] `calculateGradeStatus()`
+  - [ ] 🔢 Loop through `evalItems` to calculate
+    - [ ] Total weight
+    - [ ] Earned weight (to-date)
+    - [ ] Remaining weight (to-date)
+
+## Test Data
+
+Using the following inputs:
+
+| Eval Item | Weight | Total Possible | Earned |
+|-----------|:------:|:--------------:|:------:|
+| Quiz 1 | 15 | 36 | 29 |
+| Quiz 2 | 20 | 24 | 18 |
+| Quiz 3 | 15 |    |    |
+| Lab 1  | 25 | 54 | 32 |
+| Lab 2  | 25 | 42 |    |
+
+The calculated results should be:
+
+| Total Weight | Earned Weight | Remaining Weight |
+|:---:|:---:|:---:|
+| 100 | 41.9| 40 |
+
 
 ## Credits
 
