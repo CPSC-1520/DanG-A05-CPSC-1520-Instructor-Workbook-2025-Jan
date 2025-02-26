@@ -77,6 +77,11 @@ const createForms = function (evt) {
     let html = buildFormHtml(`${evalName} ${count}`);
     container.innerHTML = container.innerHTML + html;
   }
+
+  // Clear inputs and re-set focus
+  inputCategory.value = '';
+  inputQuantity.value = '';
+  inputCategory.focus(); // keyboard
 }
 
 /**
