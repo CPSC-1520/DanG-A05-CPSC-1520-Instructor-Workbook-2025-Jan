@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#feb-13).
+> These are my notes on what I plan to teach in each [**upcoming class**](#feb-26).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -449,8 +449,8 @@
 
 - **Today** *(Online)*
   - [ ] ***TBD:** New items*
-  - [ ] Continue/Complete Looping and Array Demos - *(to be done over several classes)*
-    - *View samples on [`016/AboutArrays.js`](./src/016/AboutArrays.js) regarding adding/removing items from the array
+  - [ ] Continue/Complete Looping and Array Demos - *(to be done over several classes)* - See [this issue](https://github.com/CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/issues/3)
+    - *View samples on [`016/AboutArrays.js`](./src/016/AboutArrays.js) regarding adding/removing items from the array*
     - *(See starter Kit [`~/src/015/`](./src/015/ReadMe.md))*
     - *(See starter Kit [`~/src/016/`](./src/016/ReadMe.md))*
 - **Homework**
