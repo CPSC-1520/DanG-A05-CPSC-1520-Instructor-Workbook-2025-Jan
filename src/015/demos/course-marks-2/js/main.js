@@ -118,6 +118,24 @@ const editEvalItem = function (evt) {
 
     if(!found) {
       // new item needs to be added
+      // I am using an object literal.
+      // It's a comma-separated set of
+      // name/value pairs
+      let item = {
+        name: inputName.value,
+        weight: parseInt(inputWeight.value),
+        possible: null,
+        earned: null
+      }
+      if(!isNaN(inputTotal.value)) {
+        // yes, there is a number entered
+        item.possible = parseInt(inputTotal.value);
+      }
+      if(!isNaN(inputEarned.value)) {
+        item.earned = parseInt(inputEarned.value);
+      }
+      // Now I can add to my array
+      evalItems.push(item);
     } else {
       // found item needs to be updated
     }
