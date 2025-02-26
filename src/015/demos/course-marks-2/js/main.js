@@ -93,6 +93,15 @@ const editEvalItem = function (evt) {
   // TODO: Part 2 - Update information on the current evaluation item
   outputLine("User feedback on editing the evaluation item", true);
 
+  // 0) Getting the form & input controls
+  const form = evt.target;
+  // console.log(form.elements);
+  let inputName = form.elements.evalName;
+  let inputWeight = form.elements.weight;
+  let inputTotal = form.elements.totalPoints;
+  let inputEarned = form.elements.earnedPoints;
+
+
   // 1) Validate the inputs
   let isValid = true;
 
@@ -106,6 +115,10 @@ const editEvalItem = function (evt) {
 };
 
 // Global array to store eval object
+/**
+ * Store items as objects in this structure:
+ * `{ name: string, weight: number, possible: number | null, earned: number | null }`
+ */
 let evalItems = []; // empty array
 
 /**
