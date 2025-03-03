@@ -42,6 +42,9 @@ const Person = function(firstName, lastName, dateOfBirth) {
     this.givenName = firstName;
     this.surname = lastName;
     this.dob = dateOfBirth;
+    this.greet = function () {
+        console.log(`Hello, my name is ${this.givenName}!`);
+    };
 }
 // With a constructor function, I can use it to create new
 // objects as often as I want
