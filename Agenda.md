@@ -468,6 +468,8 @@
 ## Mar 03 (W08)
 
 - **Today**
+  - [ ] Review answer for Lab 5
+  - [ ] Objects and Object Literals
 - **Homework**
 
 
