@@ -485,6 +485,11 @@
 
 - **Today**
   - [ ] [Arrow Function Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) ([sample image](./docs/images/arrow-function-expression-light.png))
+  - [ ] Array Functions
+    - [ ] `.forEach()`
+    - [ ] `.map()`
+    - [ ] `.filter()`
+    - [ ] `.find()`
   - [ ] Intro to Fetch API
 
     ```js
@@ -494,6 +499,7 @@
       .catch(err => console.log(err));
     ```
 - **Homework**
+  - [ ] Review [Dana's CPSC-1520 Topic Summary](https://dmarshnait.github.io/cpsc1520/QuickReference)
 
 ----
 
