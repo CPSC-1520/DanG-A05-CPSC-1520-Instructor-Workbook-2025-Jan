@@ -15,5 +15,12 @@ const Course = function(courseCode, name) {
     }
 }
 
+const EvaluationItem = function(name, weight, earned, possible) {
+    this.name = name;
+    this.weight = weight;
+    this.earned = earned;
+    this.possible = possible;
+}
+
 // We share our objects and functions using the export keyword
-export { Course }
+export { Course, EvaluationItem }
