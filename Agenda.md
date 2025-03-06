@@ -484,7 +484,15 @@
 ## Mar 06
 
 - **Today**
+  - [ ] [Arrow Function Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) ([sample image](./docs/images/arrow-function-expression-light.png))
   - [ ] Intro to Fetch API
+
+    ```js
+    fetch('https://randomuser.me/api/?results=10')
+      .then(x => x.json())
+      .then(x => console.log(x))
+      .catch(err => console.log(err));
+    ```
 - **Homework**
 
 ----
