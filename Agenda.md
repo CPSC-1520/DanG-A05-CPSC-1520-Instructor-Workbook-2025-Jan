@@ -484,6 +484,7 @@
 ## Mar 06
 
 - **Today**
+  - [ ] Add `EvaluationItem` constructor function to the [`course-marks.js` module](./src/017/modern/js/course-marks.js)
   - [ ] [Arrow Function Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) ([sample image](./docs/images/arrow-function-expression-light.png))
   - [ ] Array Functions
     - [ ] `.forEach()`
