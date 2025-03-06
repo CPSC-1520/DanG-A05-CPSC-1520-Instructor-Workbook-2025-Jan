@@ -470,18 +470,21 @@
 - **Today**
   - [ ] Review answer for Lab 5
   - [ ] Objects and Object Literals
+  - [ ] Intro to Node projects
 - **Homework**
 
 
 ## Mar 05
 
 - **Today** *(Online)*
+  - [ ] Intro to JavaScript Modules (`import` and `export`)
 - **Homework**
 
 
 ## Mar 06
 
 - **Today**
+  - [ ] Intro to Fetch API
 - **Homework**
 
 ----
