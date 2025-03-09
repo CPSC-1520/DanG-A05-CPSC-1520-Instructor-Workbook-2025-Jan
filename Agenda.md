@@ -546,12 +546,14 @@
 ## Mar 12
 
 - **Today** *(Online)*
+  - [ ] Continue the [Student Marks example/tutorial](https://github.com/dgilleland/CPSC-1520/discussions/64#discussioncomment-12437759)
 - **Homework**
 
 
 ## Mar 13
 
 - **Today**
+  - [ ] Continue the [Student Marks example/tutorial](https://github.com/dgilleland/CPSC-1520/discussions/64#discussioncomment-12437759)
 - **Homework**
 
 ----
@@ -559,6 +561,7 @@
 ## Mar 17 (W10)
 
 - **Today**
+  - [ ] Timers and Intervals in JavaScript
 - **Homework**
 
 
@@ -578,6 +581,7 @@
 ## Mar 24 (W11)
 
 - **Today**
+  - [ ] Classes in JavaScript
 - **Homework**
 
 
@@ -590,6 +594,7 @@
 ## Mar 27
 
 - **Today**
+  - [ ] **In-Class Lab 6**
 - **Homework**
 
 ----
