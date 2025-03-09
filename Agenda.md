@@ -538,7 +538,7 @@
         });
         ```
 
-  - [ ] Setup the Student Marks example/tutorial
+  - [ ] Setup the [Student Marks example/tutorial](https://github.com/dgilleland/CPSC-1520/discussions/64#discussioncomment-12437759)
 - **Homework**
   - [ ] Fill the `courses.json` file with your current marks
 
