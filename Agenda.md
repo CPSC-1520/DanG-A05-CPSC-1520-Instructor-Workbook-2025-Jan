@@ -538,7 +538,13 @@
         });
         ```
 
-  - [ ] Setup the [Student Marks example/tutorial](https://github.com/dgilleland/CPSC-1520/discussions/64#discussioncomment-12437759)
+  - [ ] Setup the [Student Marks example/tutorial](./sk/020/Tutorial.md)
+    - Starter Kit *(installs to [`~/src/020/student-marks`](./src/020/student-marks/ReadMe.md))*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/020/student-marks ./src/020/student-marks
+      ```
+
 - **Homework**
   - [ ] Fill the `courses.json` file with your current marks
 
