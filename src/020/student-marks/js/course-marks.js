@@ -4,6 +4,31 @@
  * @param {string} name The course name (e.g.: 'JavaScript Fundamentals')
  */
 const Course = function(code, name) {
+    // Information
+    this.code = code;
+    this.name = name;
+    this.evaluations = [];
+    // Behaviours
+    this.getTotalWeight = function() {
+        let total = 0;
+        for(let index = 0; index < this.evaluations.length; index++) {
+            let item = this.evaluations[index];
+            total = total + item.weight;
+        }
+        return total;
+    }
+
+    this.getTotalEarned = function() {
+        let earnedTotal = 0;
+        for(let index = 0; index < this.evaluations.length; index++) {
+            let item = this.evaluations[index];
+            let earned = item.getWeightedPercent();
+            if(!isNaN(earned)) {
+                earnedTotal += earned;
+            }
+        }
+        return earnedTotal;
+    }
 }
 
 /**
@@ -27,6 +52,31 @@ Course.fromJsonObject = function(obj) {
  * @param {number | null} possible The total possible points that can be earned on the evaluation item
  */
 const EvaluationItem = function(name, weight, earned, possible) {
+    this.name = name;
+    this.weight = weight;
+    this.earned = earned;
+    this.possible = possible;
+
+    this.getPercent = function() {
+        let result;
+        if(this.earned === null) {
+            result = null;            
+        } else {
+            result = this.earned / this.possible;
+            result = result * 100;
+        }
+        return result;
+    }
+
+    this.getWeightedPercent = function() {
+        // TODO: See if you can complete this
+        // e.g.: 12/20 is 60%, and for a 10% item, I have earned 6% towards my final grade.
+        let result = this.getPercent();
+        if(result !== null) {
+            result = result * this.weight / 100;
+        }
+        return result;
+    }
 }
 
 export { Course, EvaluationItem }

@@ -25,7 +25,7 @@ describe("EvaluationItem should", () => {
     reject invalid earned points
     reject invalid total points
     */
-  it.todo("preserve name", () => {
+  it("preserve name", () => {
     // Arrange
     let name = 'Lab 1';
     // Act
@@ -34,7 +34,7 @@ describe("EvaluationItem should", () => {
     expect(actual.name).toBe(name);
   });
 
-  it.todo("preserve weight", () => {
+  it("preserve weight", () => {
     // Arrange
     let weight = 15;
     // Act
@@ -43,7 +43,7 @@ describe("EvaluationItem should", () => {
     expect(actual.weight).toBe(weight);
   });
   
-  it.todo("preserve earned points", () => {
+  it("preserve earned points", () => {
     // Arrange
     let earned = 12;
     // Act
@@ -52,7 +52,7 @@ describe("EvaluationItem should", () => {
     expect(actual.earned).toBe(earned);
   });
 
-  it.todo("preserve total points", () => {
+  it("preserve total points", () => {
     // Arrange
     let possible = 20;
     // Act
@@ -61,7 +61,7 @@ describe("EvaluationItem should", () => {
     expect(actual.possible).toBe(possible);
   });
 
-  it.todo.each([
+  it.each([
     { earned: 12, possible: 20, expected: 60 },
     { earned: null, possible: 20, expected: null }
   ])
@@ -73,7 +73,7 @@ describe("EvaluationItem should", () => {
     expect(actual.getPercent()).toBe(expected);
   });
 
-  it.todo.each([
+  it.each([
     { weight: 10, earned: 12, possible: 20, expected: 6 },
     { weight: 10, earned: null, possible: 20, expected: null }
   ])
@@ -136,7 +136,7 @@ describe("EvaluationItem should", () => {
 });
 
 describe("Course should", () => {
-  it.todo("preserve course code", () => {
+  it("preserve course code", () => {
     // Arrange
     let name = 'JavaScript Fundamentals';
     let code = 'PROG-0101';
@@ -146,7 +146,7 @@ describe("Course should", () => {
     expect(actual.code).toBe(code);
   });
 
-  it.todo("preserve course name", () => {
+  it("preserve course name", () => {
     // Arrange
     let name = 'JavaScript Fundamentals';
     let code = 'PROG-0101';
@@ -168,7 +168,7 @@ describe("Course should", () => {
     reject empty course name
     reconstruct from object
   */
-    it.todo("be incomplete (no evaluations) when constructed", () => {
+    it("be incomplete (no evaluations) when constructed", () => {
       // Arrange
       // Act
       let actual = new Course('PROG-1101', 'TDD With JavaScript');
@@ -176,7 +176,7 @@ describe("Course should", () => {
       expect(actual.evaluations.length).toBe(0);
     });
 
-    it.todo("add evaluation item", () => {
+    it("add evaluation item", () => {
       // Arrange
       let course = new Course('PROG-1101', 'TDD With JavaScript');
       let item = new EvaluationItem('Lab 1', 15);
@@ -186,7 +186,7 @@ describe("Course should", () => {
       expect(course.evaluations.length).toBe(1);
     });
 
-    it.todo("calculate total course weight of evaluations", () => {
+    it("calculate total course weight of evaluations", () => {
       // Arrange
       let course = new Course("PROG-1101", "TDD With JavaScript");
       course.evaluations.push(new EvaluationItem("Lab 1", 10));
@@ -199,7 +199,7 @@ describe("Course should", () => {
       expect(actual).toBe(70);
     });
 
-    it.todo("calculate total earned weight to date", () => {
+    it("calculate total earned weight to date", () => {
       // Arrange
       let course = new Course("PROG-1101", "TDD With JavaScript");
       // All earned points work out to 50%, over 40% of the course
