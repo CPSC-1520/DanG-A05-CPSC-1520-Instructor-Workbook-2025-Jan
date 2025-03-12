@@ -552,7 +552,7 @@
 ## Mar 12
 
 - **Today** *(Online)*
-  - [ ] Continue the [Student Marks example/tutorial](https://github.com/dgilleland/CPSC-1520/discussions/64#discussioncomment-12437759)
+  - [ ] Start the [Student Marks example/tutorial](./src/020/Tutorial.md)
 - **Homework**
 
 
