@@ -216,7 +216,7 @@ describe("Course should", () => {
       expect(actual).toBe(expected);
     })
 
-    it.todo("calculate remaining (unmarked) weight to date", () => {
+    it("calculate remaining (unmarked) weight to date", () => {
       // Arrange
       let course = new Course("PROG-1101", "TDD With JavaScript");
       // All earned points work out to 50%, over 60% of the course
@@ -257,7 +257,7 @@ describe("Course should", () => {
     // Assert
   });
 
-  it.todo("reconstruct from object", () => {
+  it("reconstruct from object", () => {
     // Arrange
     let given = {
         "code": "PROG-0101",

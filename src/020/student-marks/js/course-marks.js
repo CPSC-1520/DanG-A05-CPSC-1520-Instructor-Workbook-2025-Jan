@@ -29,7 +29,24 @@ const Course = function(code, name) {
         }
         return earnedTotal;
     }
-}
+
+    this.getTotalUnmarked = function() {
+        let unmarked = 
+            this.evaluations
+            .filter(function(item) {
+                let isUnmarked = 
+                    (item.earned === null);
+                return isUnmarked; // true | false
+            });
+
+        let total = 0;
+        for(let i = 0; i < unmarked.length; i++) {
+            let item = unmarked[i];
+            total = total + item.weight;
+        }
+        return total;
+    }
+} // end of Course() constructor function
 
 /**
  * This function is intended for converting a plain object (such as one parsed from a JSON string) into a Course object.
@@ -54,8 +71,10 @@ Course.fromJsonObject = function(obj) {
 const EvaluationItem = function(name, weight, earned, possible) {
     this.name = name;
     this.weight = weight;
-    this.earned = earned;
-    this.possible = possible;
+    // ??   - Null Coalescing Operator
+    this.earned = earned ?? null;
+    // ? :  - Ternary Operator
+    this.possible = possible ? possible : null;
 
     this.getPercent = function() {
         let result;
