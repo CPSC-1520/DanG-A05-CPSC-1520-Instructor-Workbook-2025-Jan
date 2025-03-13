@@ -17,3 +17,49 @@
         </template>
     ```
 */
+import { Course } from "./course-marks";
+
+const populateContent = function(data) {
+    // console.log('I got the data\n', data);
+    let container = document.getElementById('courses');
+    // console.log(container);
+    
+    // Let's loop through all of the courses in the data
+    for(let index = 0; index < data.length; index ++) {
+        let course = data[index];
+        console.log(`Here is course # ${index + 1}\n`, course);
+        // I want to build the HTML for the course
+        let element = buildCourseElement(course);
+        console.log(element);
+        container.appendChild(element);
+    }
+}
+
+const buildCourseElement = function(aSingleCourse) {
+    // Convert the plain old JSON into an actual object
+    aSingleCourse = Course.fromJsonObject(aSingleCourse);
+    let template = document.getElementById('course-shell').content;
+    let copy = template.cloneNode(true); // Make a copy of the template
+
+    // let spanCode = copy.querySelector('.course-code');
+    // // I want to add a text node to that span (using the DOM API)
+    // let textCode = document.createTextNode(aSingleCourse.code);
+    // //                                     \__ Course _/
+    // spanCode.appendChild(textCode); 
+    findAndFill(copy, '.course-code', aSingleCourse.code);
+    findAndFill(copy, '.course-name', aSingleCourse.name);
+    // Fixed: 🎉 
+    findAndFill(copy, '.summary-marks', aSingleCourse.getTotalEarned());
+    
+    
+    
+    return copy;
+}
+
+const findAndFill = function(container, selectorText, text) {
+    let element = container.querySelector(selectorText);
+    let textNode = document.createTextNode(text);
+    element.appendChild(textNode);
+}
+
+export { populateContent }
