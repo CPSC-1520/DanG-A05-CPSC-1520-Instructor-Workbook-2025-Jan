@@ -559,7 +559,7 @@
 ## Mar 13
 
 - **Today**
-  - [ ] Continue the [Student Marks example/tutorial](https://github.com/dgilleland/CPSC-1520/discussions/64#discussioncomment-12437759)
+  - [ ] Continue the [Student Marks example/tutorial](./src/020/Tutorial.md)
 - **Homework**
 
 ----
@@ -567,19 +567,23 @@
 ## Mar 17 (W10)
 
 - **Today**
-  - [ ] Timers and Intervals in JavaScript
+  - [ ] Continue the [Student Marks example/tutorial](./src/020/Tutorial.md)
 - **Homework**
 
 
 ## Mar 19
 
 - **Today** *(Online)*
+  - [ ] Complete the [Student Marks example/tutorial](./src/020/Tutorial.md)
+  - [ ] Using `async` and `await` with the fetch API
 - **Homework**
 
 
 ## Mar 20
 
 - **Today**
+  - [ ] Timers and Intervals in JavaScript
+  - [ ] Creating `async` functions
 - **Homework**
 
 ----
