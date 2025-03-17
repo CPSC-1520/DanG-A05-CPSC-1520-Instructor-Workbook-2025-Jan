@@ -17,7 +17,7 @@
         </template>
     ```
 */
-import { Course } from "./course-marks";
+import { Course, EvaluationItem } from "./course-marks";
 
 const populateContent = function(data) {
     // console.log('I got the data\n', data);
@@ -51,9 +51,27 @@ const buildCourseElement = function(aSingleCourse) {
     // Fixed: 🎉 
     findAndFill(copy, '.summary-marks', aSingleCourse.getTotalEarned());
     
-    
+    // Fill the <section class="grid"> with the details of the course evaluation items
+    let grid = copy.querySelector(".grid");
+    aSingleCourse.evaluations.forEach((item) => {
+      grid.appendChild(createEvaluationItemElement(item));
+    });    
     
     return copy;
+}
+
+const createEvaluationItemElement = function(/** @type {EvaluationItem} */ evalItem) {
+    let div = document.createElement('div');
+    // Fill it with information
+    let name = evalItem.name;
+    let weight = evalItem.weight;
+    let earnedWeight = evalItem.getWeightedPercent();
+
+    let text = `${name} - ${weight} % - ${earnedWeight ? earnedWeight.toFixed(1) : '(TBD)'}`;
+    let textNode = document.createTextNode(text);
+    div.appendChild(textNode);
+
+    return div;
 }
 
 const findAndFill = function(container, selectorText, text) {
