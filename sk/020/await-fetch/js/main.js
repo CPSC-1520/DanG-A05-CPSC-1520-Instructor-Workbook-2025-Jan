@@ -14,3 +14,4 @@ const callApi = async function(url) {
 // 1) Get the deck ID from a new shuffled deck (and show in element with id="deck-identifier")
 
 // 2) Draw a single card (and append to the HTML of the element with `id="hand"`)
+//    e.g.: let html = `<img src="${card.image}" alt="${card.value} of ${card.suit}" />`;
