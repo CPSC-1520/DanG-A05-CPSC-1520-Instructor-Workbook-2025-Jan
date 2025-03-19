@@ -1,9 +1,18 @@
 # Understanding Async/Await
 
+To run this demo, enter the following in your `await-fetch` folder:
+
+```ps
+pnpm install
+pnpm dev
+```
+
 > **MDN** Readings
 >
 > - [Introducing asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Async_JS/Introducing)
 > - [How to Use Promises](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Async_JS/Promises)
+
+----
 
 ## Long-Running Functions
 
