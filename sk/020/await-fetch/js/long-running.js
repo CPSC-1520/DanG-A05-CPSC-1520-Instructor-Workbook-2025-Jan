@@ -22,6 +22,7 @@ const generatePrimes = function(quota) {
             primes.push(candidate);
         }
     }
+    return primes;
 }
 
 const generatePrimesAsync = function(quota) {
