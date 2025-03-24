@@ -54,4 +54,5 @@ document.querySelector('button').addEventListener('click', (evt) => {
     console.log('box created:', box);
     box.report(); // call my method/function of my Rectangle instance
     console.log(`There are ${Rectangle.count} boxes so far.`);
-})
+});
+
