@@ -677,6 +677,7 @@
 
 - **Today**
   - [ ] Edit opportunity for Lab 7
+  - [ ] Assignment 3
   - [ ] Build a Calendar
 - **Homework**
 
@@ -684,12 +685,14 @@
 ## Apr 09
 
 - **Today** *(Online)*
+  - [ ] Work Period - Assignment 3
 - **Homework**
 
 
 ## Apr 10
 
 - **Today**
+  - [ ] Work Period - Assignment 3
 - **Homework**
 
 ----
@@ -697,18 +700,21 @@
 ## Apr 14 (W14)
 
 - **Today**
+  - [ ] Work Period - Assignment 3
 - **Homework**
 
 
 ## Apr 16
 
 - **Today** *(Online)*
+  - [ ] Work Period - Assignment 3
 - **Homework**
 
 
 ## Apr 17
 
 - **Today**
+  - [ ] Work Period - Assignment 3
 - **Homework**
 
 ----
