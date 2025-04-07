@@ -676,6 +676,8 @@
 ## Apr 07 (W13)
 
 - **Today**
+  - [ ] Edit opportunity for Lab 7
+  - [ ] Build a Calendar
 - **Homework**
 
 
